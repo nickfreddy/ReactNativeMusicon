@@ -11,6 +11,7 @@ const color = {
   blue : '#4399FD',
   blue2 : '#0065DA',
   peach : '#E2E2EA',
+  warningGradient : ['#D65D42', '#ff0f0f'],
   buttonGradient : ['#4399FD', '#0065DA']
 }
 

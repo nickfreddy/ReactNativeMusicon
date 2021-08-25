@@ -12,12 +12,14 @@ import MyButton from '../component/MyButton';
 import newRelease from '../common/dummy/newRelease';
 import MusicCard from '../component/MusicCard';
 import dimension from '../common/dimension';
+import MyAlert from '../component/MyAlert';
 
 
 const Playlist = (props) => {
   const URI = require('../asset/image/image4.jpg')
   const [topColor, setTopColor] = useState(color.black2)
   const [data, setData] = useState(newRelease)
+  const [modalActive, setModalActive] = useState(false)
 
   useEffect( async () => {
     const colors = await ImageColors.getColors(URI)
@@ -26,6 +28,11 @@ const Playlist = (props) => {
 
   return (
     <Container>
+      <MyAlert 
+        modalVisible={modalActive} 
+        setModalVisible={()=>setModalActive(false)} 
+        // type='delete'
+      />
       <Header title='Playlist' style={styles.header} />
       <LinearGradient 
         colors={[topColor, color.black2]} 
@@ -40,7 +47,11 @@ const Playlist = (props) => {
       </LinearGradient>
       <View style={styles.detailContainer} >
         <View style={styles.playPlaylistBtn} >
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={()=>{
+              setModalActive(true)
+            }}
+          >
             <MyIcon 
               source={require('../asset/icon/play.png')}
               size={48}

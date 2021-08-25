@@ -5,7 +5,7 @@ import font from '../common/font'
 
 const MyText = (props) => {
   return (
-    <Text style={[styles.text,{...props.style}]}>
+    <Text style={[styles.text, props.style]}>
       {props.children}
     </Text>
   )

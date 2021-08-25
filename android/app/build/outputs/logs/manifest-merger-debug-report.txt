@@ -12,6 +12,7 @@ MERGED from [:react-native-gesture-handler] /home/yayat/code/glints/repository/F
 MERGED from [:react-native-image-colors] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-image-colors/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-34:12
 MERGED from [:react-native-vector-icons] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.64.2] /home/yayat/.gradle/caches/transforms-2/files-2.1/f48ad73390f9d41c4966ce25bccc3bb7/jetified-react-native-0.64.2/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/5c64f35c4f864d4cd139ccbbff91ceb9/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -39,10 +40,12 @@ MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/yayat/.gradle/c
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/baebfc24ee3e9d675a4614c1f27f118a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/2ee35bfe9d2e9019f071c4a047a96db2/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/6e0f82970a69a6b386ee45a08ac362fe/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/d4c9228146f938003da5b4b09403c8a4/jetified-glide-4.7.1/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/803d31b2df2f8d968e6cb7c3ffa37ef9/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.2.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/5e5754defa7ec1b661ffd11a17838c67/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/3c1c25210c9523b781f68f6e5260d398/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.palette:palette:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/91f82d8d7ee0ffc83a64db63fe8f779d/palette-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/38993da1fa2c5f20ba80bed26c1c55e9/media-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/22a5d9f52d495a432176451a4c4ba982/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/154602205569c6147c1ab4260dd9d425/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/2f70304b103eacfab05dbe55739e869f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -52,15 +55,17 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/yayat/.gradle/cache
 MERGED from [androidx.customview:customview:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/86cf751735e9e9dd0416cce35c4a71a1/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.2.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/ae1a1dddf9cea612695d8157e2ff38cd/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/361553562ce35cf8cf447832c4a7d1ec/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.3.0-rc01] /home/yayat/.gradle/caches/transforms-2/files-2.1/6f1579ee387954b99e1887babf64619c/core-1.3.0-rc01/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /home/yayat/.gradle/caches/transforms-2/files-2.1/5a88a1a1afe1fb54a9ed94340abe845c/jetified-exoplayer-core-2.11.4/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0-alpha01] /home/yayat/.gradle/caches/transforms-2/files-2.1/9070c0ac006f50fab186dcbdfde748b7/localbroadcastmanager-1.1.0-alpha01/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/bae4382a703142a8f82a100a412243f1/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/74153744c3b76afb34d0c28a686a981b/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/af9af86a2035b10a0514f89f66cf8a9a/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/cbff631e500aff82164944184b49a648/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/5af1825acc1d96709826d913b19b2820/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/dcc76cd07ebcaa6166d73d461b1667fa/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/cef637f9a70337853492ddb30c44aea1/jetified-gifdecoder-4.7.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/11ae9ec956d6bcf258c0fc60ed922820/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/17959936f75234613fb11b8c15b12e4a/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/a49d8fed6e1f73515c23ded9f02890c2/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/b37a656be7da34e79d326523a32fbcaa/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/29e9e6ac99026fff5bb21139b2ad74ac/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -99,18 +104,24 @@ application
 ADDED from /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-32:19
+MERGED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-32:19
 MERGED from [com.facebook.react:react-native:0.64.2] /home/yayat/.gradle/caches/transforms-2/files-2.1/f48ad73390f9d41c4966ce25bccc3bb7/jetified-react-native-0.64.2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.64.2] /home/yayat/.gradle/caches/transforms-2/files-2.1/f48ad73390f9d41c4966ce25bccc3bb7/jetified-react-native-0.64.2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/5fb5c0c623111e89d0cb2cc6cbe55df8/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/5fb5c0c623111e89d0cb2cc6cbe55df8/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.core:core:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/d4c9228146f938003da5b4b09403c8a4/jetified-glide-4.7.1/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/d4c9228146f938003da5b4b09403c8a4/jetified-glide-4.7.1/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.3.0-rc01] /home/yayat/.gradle/caches/transforms-2/files-2.1/6f1579ee387954b99e1887babf64619c/core-1.3.0-rc01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0-rc01] /home/yayat/.gradle/caches/transforms-2/files-2.1/6f1579ee387954b99e1887babf64619c/core-1.3.0-rc01/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/af9af86a2035b10a0514f89f66cf8a9a/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/af9af86a2035b10a0514f89f66cf8a9a/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/cef637f9a70337853492ddb30c44aea1/jetified-gifdecoder-4.7.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/cef637f9a70337853492ddb30c44aea1/jetified-gifdecoder-4.7.1/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.0-rc01] /home/yayat/.gradle/caches/transforms-2/files-2.1/6f1579ee387954b99e1887babf64619c/core-1.3.0-rc01/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:8:7-39
 		ADDED from /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:8:7-39
@@ -175,6 +186,8 @@ MERGED from [:react-native-safe-area-context] /home/yayat/code/glints/repository
 MERGED from [:react-native-safe-area-context] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.2] /home/yayat/.gradle/caches/transforms-2/files-2.1/f48ad73390f9d41c4966ce25bccc3bb7/jetified-react-native-0.64.2/AndroidManifest.xml:7:5-9:41
@@ -229,6 +242,8 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/yayat/
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/2ee35bfe9d2e9019f071c4a047a96db2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/6e0f82970a69a6b386ee45a08ac362fe/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/6e0f82970a69a6b386ee45a08ac362fe/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/d4c9228146f938003da5b4b09403c8a4/jetified-glide-4.7.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/d4c9228146f938003da5b4b09403c8a4/jetified-glide-4.7.1/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/803d31b2df2f8d968e6cb7c3ffa37ef9/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/803d31b2df2f8d968e6cb7c3ffa37ef9/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.2.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/5e5754defa7ec1b661ffd11a17838c67/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
@@ -237,6 +252,8 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/yayat/.gr
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/3c1c25210c9523b781f68f6e5260d398/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.palette:palette:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/91f82d8d7ee0ffc83a64db63fe8f779d/palette-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.palette:palette:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/91f82d8d7ee0ffc83a64db63fe8f779d/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/38993da1fa2c5f20ba80bed26c1c55e9/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/38993da1fa2c5f20ba80bed26c1c55e9/media-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/22a5d9f52d495a432176451a4c4ba982/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/22a5d9f52d495a432176451a4c4ba982/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/154602205569c6147c1ab4260dd9d425/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
@@ -255,8 +272,12 @@ MERGED from [androidx.transition:transition:1.2.0] /home/yayat/.gradle/caches/tr
 MERGED from [androidx.transition:transition:1.2.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/ae1a1dddf9cea612695d8157e2ff38cd/transition-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/361553562ce35cf8cf447832c4a7d1ec/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/361553562ce35cf8cf447832c4a7d1ec/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0-rc01] /home/yayat/.gradle/caches/transforms-2/files-2.1/6f1579ee387954b99e1887babf64619c/core-1.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0-rc01] /home/yayat/.gradle/caches/transforms-2/files-2.1/6f1579ee387954b99e1887babf64619c/core-1.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /home/yayat/.gradle/caches/transforms-2/files-2.1/5a88a1a1afe1fb54a9ed94340abe845c/jetified-exoplayer-core-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /home/yayat/.gradle/caches/transforms-2/files-2.1/5a88a1a1afe1fb54a9ed94340abe845c/jetified-exoplayer-core-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0-alpha01] /home/yayat/.gradle/caches/transforms-2/files-2.1/9070c0ac006f50fab186dcbdfde748b7/localbroadcastmanager-1.1.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0-alpha01] /home/yayat/.gradle/caches/transforms-2/files-2.1/9070c0ac006f50fab186dcbdfde748b7/localbroadcastmanager-1.1.0-alpha01/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/bae4382a703142a8f82a100a412243f1/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/bae4382a703142a8f82a100a412243f1/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/74153744c3b76afb34d0c28a686a981b/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
@@ -269,10 +290,10 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/yayat/.gradle/c
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/5af1825acc1d96709826d913b19b2820/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/dcc76cd07ebcaa6166d73d461b1667fa/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/dcc76cd07ebcaa6166d73d461b1667fa/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/cef637f9a70337853492ddb30c44aea1/jetified-gifdecoder-4.7.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/cef637f9a70337853492ddb30c44aea1/jetified-gifdecoder-4.7.1/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/11ae9ec956d6bcf258c0fc60ed922820/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/11ae9ec956d6bcf258c0fc60ed922820/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/17959936f75234613fb11b8c15b12e4a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/17959936f75234613fb11b8c15b12e4a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/a49d8fed6e1f73515c23ded9f02890c2/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/a49d8fed6e1f73515c23ded9f02890c2/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/b37a656be7da34e79d326523a32fbcaa/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
@@ -309,3 +330,33 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.75.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.75.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-77
+	android:name
+		ADDED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-74
+service#com.guichaguri.trackplayer.service.MusicService
+ADDED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-24:19
+	android:enabled
+		ADDED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-35
+	android:exported
+		ADDED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-75
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-23:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-74
+receiver#androidx.media.session.MediaButtonReceiver
+ADDED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-31:20
+	android:name
+		ADDED from [:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:19-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /home/yayat/.gradle/caches/transforms-2/files-2.1/5a88a1a1afe1fb54a9ed94340abe845c/jetified-exoplayer-core-2.11.4/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /home/yayat/.gradle/caches/transforms-2/files-2.1/5a88a1a1afe1fb54a9ed94340abe845c/jetified-exoplayer-core-2.11.4/AndroidManifest.xml:24:22-76

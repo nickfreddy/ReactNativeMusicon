@@ -17,52 +17,86 @@
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 13-->[com.facebook.flipper:flipper:0.75.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.75.1] /home/yayat/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:6:5-24:19
-16        android:name="com.musicon.MainApplication"
-16-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:7:7-38
-17        android:allowBackup="false"
-17-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:11:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] /home/yayat/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:9:7-41
-21        android:label="@string/app_name"
-21-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:8:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:10:7-52
-23        android:theme="@style/AppTheme"
-23-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:12:7-38
-24        android:usesCleartextTraffic="true" >
-24-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/debug/AndroidManifest.xml:8:9-44
-25        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-25-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/debug/AndroidManifest.xml:11:9-86
-25-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/debug/AndroidManifest.xml:11:19-83
-26        <activity
-26-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:13:7-23:18
-27            android:name="com.musicon.MainActivity"
-27-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:14:9-37
-28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-28-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:16:9-86
-29            android:label="@string/app_name"
-29-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:15:9-41
-30            android:launchMode="singleTask"
-30-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:17:9-40
-31            android:windowSoftInputMode="adjustResize" >
-31-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:18:9-51
-32            <intent-filter>
-32-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:19:9-22:25
-33                <action android:name="android.intent.action.MAIN" />
-33-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:20:13-65
-33-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:20:21-62
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:21:13-73
-35-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:21:23-70
-36            </intent-filter>
-37        </activity>
-38    </application>
-39
-40</manifest>
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-68
+14-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-65
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-77
+15-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-74
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.exoplayer:exoplayer-core:2.11.4] /home/yayat/.gradle/caches/transforms-2/files-2.1/5a88a1a1afe1fb54a9ed94340abe845c/jetified-exoplayer-core-2.11.4/AndroidManifest.xml:24:5-79
+16-->[com.google.android.exoplayer:exoplayer-core:2.11.4] /home/yayat/.gradle/caches/transforms-2/files-2.1/5a88a1a1afe1fb54a9ed94340abe845c/jetified-exoplayer-core-2.11.4/AndroidManifest.xml:24:22-76
+17
+18    <application
+18-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:6:5-24:19
+19        android:name="com.musicon.MainApplication"
+19-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:7:7-38
+20        android:allowBackup="false"
+20-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:11:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.3.0-rc01] /home/yayat/.gradle/caches/transforms-2/files-2.1/6f1579ee387954b99e1887babf64619c/core-1.3.0-rc01/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:9:7-41
+24        android:label="@string/app_name"
+24-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:8:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:10:7-52
+26        android:theme="@style/AppTheme"
+26-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:12:7-38
+27        android:usesCleartextTraffic="true" >
+27-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/debug/AndroidManifest.xml:8:9-44
+28        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+28-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/debug/AndroidManifest.xml:11:9-86
+28-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/debug/AndroidManifest.xml:11:19-83
+29        <activity
+29-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:13:7-23:18
+30            android:name="com.musicon.MainActivity"
+30-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:14:9-37
+31            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+31-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:16:9-86
+32            android:label="@string/app_name"
+32-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:15:9-41
+33            android:launchMode="singleTask"
+33-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:17:9-40
+34            android:windowSoftInputMode="adjustResize" >
+34-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:18:9-51
+35            <intent-filter>
+35-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:19:9-22:25
+36                <action android:name="android.intent.action.MAIN" />
+36-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:20:13-65
+36-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:20:21-62
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:21:13-73
+38-->/home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/android/app/src/main/AndroidManifest.xml:21:23-70
+39            </intent-filter>
+40        </activity> <!-- The main service, handles playback, playlists and media buttons -->
+41        <service
+41-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-24:19
+42            android:name="com.guichaguri.trackplayer.service.MusicService"
+42-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-75
+43            android:enabled="true"
+43-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-35
+44            android:exported="true" >
+44-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-36
+45            <intent-filter>
+45-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-23:29
+46                <action android:name="android.intent.action.MEDIA_BUTTON" />
+46-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-77
+46-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-74
+47            </intent-filter>
+48        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
+49        <receiver android:name="androidx.media.session.MediaButtonReceiver" >
+49-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-31:20
+49-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:19-76
+50            <intent-filter>
+50-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-23:29
+51                <action android:name="android.intent.action.MEDIA_BUTTON" />
+51-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-77
+51-->[:react-native-track-player] /home/yayat/code/glints/repository/FinalProject/reactnativeteam_a/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-74
+52            </intent-filter>
+53        </receiver>
+54    </application>
+55
+56</manifest>

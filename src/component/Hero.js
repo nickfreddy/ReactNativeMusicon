@@ -17,7 +17,7 @@ const Hero = (props) => {
     >
       <MyText style={styles.welcomeTxt}>Welcome to Musicon!</MyText>
       <MyText style={styles.heroDescription}>Musicon provides you with various music, we have million music from all over the world. Now it’s your time to feel the joy from Musicon, create your own playlist now!</MyText>
-      <MyButton title='Create Playlist' plus big />
+      <MyButton title='Create Playlist' plus big action={()=>props.action()} />
     </LinearGradient>
   )
 }

@@ -10,12 +10,15 @@ import newRelease from '../common/dummy/newRelease'
 import Card from '../component/Card'
 import dimension from '../common/dimension'
 import color from '../common/color'
+import ModalEdit from '../component/ModalEdit'
 
 
 const Home = () => {
 
   const [album, setAlbum] = useState(newRelease)
   const y = useRef(new Animated.Value(0)).current;
+  const [modalVisible, setModalVisible] = useState(true)
+
   const AnimatedFlatList = Animated.createAnimatedComponent(FlatList);
   const HEIGHT = 300
 
@@ -40,14 +43,14 @@ const Home = () => {
           style={[styles.heroContainer, { transform: [{ translateY }]}]}
         >
           <MyText style={styles.sectionTitle}>Hi Yayat,</MyText>
-          <Hero style={styles.hero} />
+          <Hero style={styles.hero} action={()=>{setModalVisible(true)}} />
           <MyText style={styles.sectionTitle}>New Releases</MyText>
         </Animated.View>
         <Animated.View style={{height}} />
           <View style={styles.buttonContainer}>
-            <GradientButton title='Album' active/>
-            <GradientButton title='Songs' style={styles.midleBtn} />
-            <GradientButton title='Artist' />
+            <GradientButton small title='Album' active/>
+            <GradientButton small title='Songs' style={styles.midleBtn} />
+            <GradientButton small title='Artist' />
           </View>
         <AnimatedFlatList
           data={album}
@@ -71,6 +74,7 @@ const Home = () => {
           scrollEventThrottle={1}
         />
       </View>
+      <ModalEdit modalVisible={modalVisible} action={()=>setModalVisible(false)} />
     </Container>
   )
 }

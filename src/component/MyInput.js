@@ -3,6 +3,7 @@ import { StyleSheet, TextInput, View, Text, TouchableOpacity } from "react-nativ
 import Ionicons from 'react-native-vector-icons/Ionicons'
 import font from "../common/font";
 import color from '../common/color'
+import MyText from "./MyText";
 
 const MyInput = (props) => {
   const [secure, setSecure] = useState(false);
@@ -45,15 +46,22 @@ const MyInput = (props) => {
   return (
     <View>
       <TextInput
-        placeholder={props.placeholder}
+        placeholder={props.numberOfLines ? '' : props.placeholder}
         secureTextEntry={secure}
         value={props.value}
         placeholderTextColor= {color.gray}
-        style={[styles.inputBox, props.secure && styles.secure]}
+        style={[
+          styles.inputBox, 
+          props.secure && styles.secure,
+          props.numberOfLines && styles.numberOfLines, 
+          props.style
+        ]}
         onChangeText={value => onChange(value)}
         onFocus={()=>{setFocused(true)}}
         onBlur={()=>{setFocused(false)}}
         editable={!props.readOnly}
+        multiline={props.numberOfLines ? true : false}
+        numberOfLines={props.numberOfLines ? props.numberOfLines : 1}
       />
       { focused &&
         <View style={styles.warningContainer}>
@@ -69,6 +77,11 @@ const MyInput = (props) => {
               <Ionicons name='eye-outline' size={20} color='gray'/>
             }
           </TouchableOpacity>
+        </View>
+      }
+      {props.numberOfLines && props.value === '' &&
+        <View style={styles.placeholderContainer}>
+            <MyText style={styles.placeholder}>{props.placeholder}</MyText>
         </View>
       }
     </View>
@@ -87,6 +100,10 @@ const styles = StyleSheet.create({
     fontFamily: font.regular,
     backgroundColor: color.secondary3,
     fontSize: 12,
+  },
+  numberOfLines: {
+    textAlignVertical: 'top',
+    paddingVertical: 12,
   },
   warning: {
     color: '#EC521E',
@@ -109,5 +126,16 @@ const styles = StyleSheet.create({
     position: 'absolute',
     right: 10,
     top: 13,
+  },
+  placeholder: {
+    color: color.gray,
+    fontSize: 16,
+  },
+  placeholderContainer: {
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
   }
 });

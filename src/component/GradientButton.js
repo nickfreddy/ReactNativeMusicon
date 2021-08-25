@@ -2,6 +2,7 @@ import React from 'react'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
 import color from '../common/color'
+import font from '../common/font'
 import MyText from './MyText'
 
 const GradientButton = (props) => {
@@ -11,16 +12,22 @@ const GradientButton = (props) => {
       end={{x: 1, y: 0}} 
       colors={props.active 
         ? color.buttonGradient
-        : [color.black,color.black]
+        : props.cancel 
+          ? [color.gray,color.gray]
+          : props.warning 
+            ? color.warningGradient
+            : [color.black,color.black]
       } 
-      style={[styles.btnContainer, props.style]}
+      style={[styles.btnContainer, props.round && styles.round, props.style]}
     >
       <TouchableOpacity style={styles.btn} 
         onPress={()=>{
           props.action && props.action()
         }}
       >
-        <MyText>{props.title}</MyText>
+        <MyText 
+          style={!props.small && styles.text}
+        >{props.title}</MyText>
       </TouchableOpacity>
     </LinearGradient>
   )
@@ -33,7 +40,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 8,
-    flex: 1.
+    flex: 1,
   },
   btn: {
     justifyContent: 'center',
@@ -42,6 +49,11 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     width: '100%',
   },
-  container: {
+  round: {
+    borderRadius: 20,
+  },
+  text: {
+    fontFamily: font.bold,
+    fontSize: 16,
   }
 })
